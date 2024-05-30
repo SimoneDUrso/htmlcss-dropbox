@@ -358,3 +358,36 @@ body {
 }
 
 /* QUI INIZIA IL FOOTER */
+.container-footer {
+    width: 100vw;
+    height: 1000px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.row-footer {
+    width: 85%;
+    height: 500px;
+    background-color: orange;
+    display: flex;
+}
+
+.col-footer {
+    width: calc(100% / 5);
+    height: 100%;
+    border: 2px dashed black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.category {
+    font-size: 25px;
+}
