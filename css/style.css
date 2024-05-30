@@ -60,7 +60,7 @@ body {
 
 .container-bg-lightblue {
     width: 100vw;
-    height: 900px;
+    height: 800px;
     background-color: rgb(118, 197, 237);
     display: flex;
     justify-content: flex-end;
@@ -68,26 +68,82 @@ body {
     flex-direction: column;
 }
 
+/* RIGA DEL TITOLO */
 .row-title {
     text-align: center;
     width: 100%;
     background-color: red;
 }
 
+/* RIGA DEI CONTENT IMG E DELLE INFO */
 .row-first-block {
-    width: 70%;
-    height: 800px;
+    width: 80%;
     background-color: blue;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .col-info {
     width: 30%;
-    height: 500px;
+    height: 700px;
+    border: 3px dashed black;
 }
 
 .col-image {
     width: 70%;
-    height: 500px;
+    height: 700px;
+    border: 3px dashed black;
+}
+
+/* CONTENITORE DA 1200PX */
+
+.container-1200 {
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: red;
+    height: 8000px;
+}
+
+/* CREAZIONE DEI BLOCCHI DEL PIANO BUSINESS */
+
+.business-plan {
+    width: 100%;
+    height: 2000px;
+    background-color: blue;
+}
+
+#business-title {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+
+#radiobox {
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    margin-bottom: 50px;
+}
+
+.plans {
+    width: 100%;
+    height: 1200px;
+    background-color: yellow;
+}
+
+.plans-row {
+    display: flex;
+}
+
+.col-plans {
+    width: calc(100% / 3);
+    height: 1000px;
+    border: 3px dashed black;
+
+}
+
+.col-plans.center {
+    margin: 0px 20px;
 }
