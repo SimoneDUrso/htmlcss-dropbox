@@ -360,22 +360,30 @@ body {
 /* QUI INIZIA IL FOOTER */
 .container-footer {
     width: 100vw;
-    height: 1000px;
+    margin: 0 auto;
     background-color: black;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.row-footer {
+.row-footer.top {
     width: 85%;
-    height: 500px;
+    background-color: orange;
+    display: flex;
+
+}
+
+.row-footer.bottom {
+    width: 85%;
+    height: 150px;
     background-color: orange;
     display: flex;
 }
 
 .col-footer {
     width: calc(100% / 5);
-    height: 100%;
+    height: 500px;
     border: 2px dashed black;
 }
 
@@ -390,4 +398,11 @@ li {
 
 .category {
     font-size: 25px;
+}
+
+.col-language {
+    width: 10%;
+    height: 100%;
+    background-color: grey;
+    border-top: 1px solid white;
 }
