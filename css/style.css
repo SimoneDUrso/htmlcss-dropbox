@@ -63,8 +63,15 @@ body {
     height: 900px;
     background-color: rgb(118, 197, 237);
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-title {
+    text-align: center;
+    width: 100%;
+    background-color: red;
 }
 
 .row-first-block {
@@ -72,12 +79,15 @@ body {
     height: 800px;
     background-color: blue;
     display: flex;
+    align-items: flex-end;
 }
 
 .col-info {
     width: 30%;
+    height: 500px;
 }
 
 .col-image {
     width: 70%;
+    height: 500px;
 }
