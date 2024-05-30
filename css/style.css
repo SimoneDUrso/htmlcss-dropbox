@@ -186,6 +186,8 @@ body {
     width: 100%;
     height: 500px;
     border: 3px dashed black;
+    background-color: yellow;
+    margin-bottom: 150px;
 }
 
 .row-partner {
@@ -204,4 +206,48 @@ body {
     width: 40%;
     height: 100%;
     border: 3px dashed black;
+}
+
+/* CREAZIONE DEL BLOCCO "PIù OPERAZIONI" */
+
+.container-more-operations {
+    width: 100%;
+    height: 1800px;
+    background-color: orange;
+    padding-top: 30px;
+}
+
+.title-more-options {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+}
+
+.row-more-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    height: 800px;
+    border: 3px dashed black;
+}
+
+.image-more-options {
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
+}
+
+.h3-more-options {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+}
+
+.p-more-options {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
 }
