@@ -266,8 +266,8 @@ body {
 
 .container-bg-lightblue.bottom {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
     height: 800px;
 }
 
@@ -303,5 +303,26 @@ body {
 .paragraph-partners {
     width: 100%;
     height: 60%;
+    border: 2px dashed black;
+}
+
+/* UNDER ROW FULL */
+
+.free-trial {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.row-trial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.col-50-trial {
+    width: 50%;
+    height: 100%;
     border: 2px dashed black;
 }
