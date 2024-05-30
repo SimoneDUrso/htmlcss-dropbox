@@ -97,12 +97,10 @@ body {
 
 /* CONTENITORE DA 1200PX */
 
-.container-1200 {
+.container-1400 {
     width: 1400px;
     margin: 0 auto;
     margin-top: 200px;
-    background-color: red;
-    height: 8000px;
 }
 
 /* CREAZIONE DEI BLOCCHI DEL PIANO BUSINESS */
@@ -250,4 +248,60 @@ body {
     width: 100%;
     height: 20%;
     border: 1px solid black;
+}
+
+/* ULTIMO BLOCCO DEL CONTAINER DA 1200PX */
+
+.h2-link {
+    width: 100%;
+    background-color: blue;
+    margin: 150px 0px;
+}
+
+.h2-link h2 {
+    margin-bottom: 50px;
+}
+
+/* CONTAINER FULL */
+
+.container-bg-lightblue.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 800px;
+}
+
+.row-partners {
+    width: 100%;
+    height: 70%;
+    background-color: yellow;
+    display: flex;
+}
+
+/* QUESTI DUE GESTISCONO SIA LA COL 33 DI SINISTRA SIA QUELLA DI DESTRA */
+.col-33.partners {
+    width: calc(100% / 3);
+    height: 560px;
+    border: 3px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50.partners {
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+/* COLONNA CENTRALE */
+.img-partners {
+    width: 100%;
+    height: 40%;
+    border: 2px dashed black;
+}
+
+.paragraph-partners {
+    width: 100%;
+    height: 60%;
+    border: 2px dashed black;
 }
