@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* QUI INIZIA L'HEADER */
+.container-header {
+    width: 100vw;
+    background-color: orange;
+}
+
+.row-header {
+    height: 100%;
+    display: flex;
+
+}
+
+.col-50 {
+    height: 100%;
+    width: 50%;
+    padding: 30px 30px 30px 20px;
+}
+
+/* PRIMA COLONNA */
+.content-header>img {
+    width: 150px;
+}
+
+.content-header span {
+    margin: 10px 30px;
+    font-size: 25px;
+    color: grey;
+}
+
+.content-header a {
+    text-decoration: none;
+}
+
+/* SECONDA COLONNA */
+.content-header.right {
+    text-align: right;
+}
+
+.col-50 button {
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+}
