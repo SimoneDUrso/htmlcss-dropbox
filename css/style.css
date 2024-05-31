@@ -11,20 +11,17 @@ body {
 /* QUI INIZIA L'HEADER */
 .container-header {
     width: 100vw;
-    background-color: orange;
 }
 
 .row-header {
-    height: 100%;
     display: flex;
-
 }
 
 .col-50 {
-    height: 100%;
     width: 50%;
     padding: 30px 30px 30px 20px;
 }
+
 
 /* PRIMA COLONNA */
 .content-header>img {
@@ -49,7 +46,7 @@ body {
 .col-50 button {
     font-size: 25px;
     color: white;
-    background-color: blue;
+    background-color: rgb(8, 123, 255);
     border: none;
     padding: 10px 20px;
 }
@@ -59,40 +56,77 @@ body {
 /* INIZIO MAIN */
 
 .container-bg-lightblue {
-    width: 100vw;
-    height: 800px;
+    min-width: 100vw;
+    height: 1200px;
     background-color: rgb(118, 197, 237);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+    padding-top: 300px;
 }
 
 /* RIGA DEL TITOLO */
 .row-title {
-    text-align: center;
-    width: 100%;
-    background-color: red;
+    width: 70%;
+}
+
+.content-title {
+    font-size: 60px;
+    text-align: left;
+    padding-left: 50px;
 }
 
 /* RIGA DEI CONTENT IMG E DELLE INFO */
 .row-first-block {
-    width: 80%;
-    background-color: blue;
+    min-width: 1300px;
+    width: 70%;
     display: flex;
     align-items: center;
+    padding-left: 50px;
 }
 
 .col-info {
     width: 30%;
-    height: 700px;
-    border: 3px dashed black;
+
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding-top: 150px;
+}
+
+.content-info button {
+    width: 60%;
+    font-size: 25px;
+    text-align: left;
+    padding: 20px 10px 20px 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgb(8, 123, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-arrow-down {
+    font-size: 80px;
+    margin-top: 150px;
 }
 
 .col-image {
     width: 70%;
-    height: 700px;
-    border: 3px dashed black;
+}
+
+.jumbo {
+    width: 1200px;
+    height: 800px;
+    min-height: 200px;
+    position: relative;
+    bottom: -150px;
+    left: 200px;
 }
 
 /* CONTENITORE DA 1400PX */
@@ -111,22 +145,35 @@ body {
 
 #business-title {
     width: 100%;
-    height: 100px;
-    background-color: orange;
     margin-bottom: 50px;
+}
+
+#business-title h2 {
+    font-size: 50px;
 }
 
 #radiobox {
     width: 100%;
-    height: 50px;
-    background-color: yellow;
     margin-bottom: 50px;
+    font-size: 20px;
 }
 
+#mg-right-radio {
+    margin-right: 80px;
+}
+
+.mg-right-span {
+    margin-right: 5px;
+}
+
+/* DIMENSIONE PALLINO RADIO */
+input[type="radio"] {
+    transform: scale(1.8);
+}
+
+/* GESTIONE DELLE TRE COLONNE VERTICALI */
 .plans {
     width: 100%;
-    height: 1200px;
-    background-color: yellow;
 }
 
 .plans-row {
@@ -135,14 +182,111 @@ body {
 
 .col-plans {
     width: calc(100% / 3);
-    height: 1000px;
-    border: 3px dashed black;
+    height: 1200px;
+    border: 1px solid black;
 
 }
 
 .col-plans.center {
     margin: 0px 20px;
 }
+
+
+/* COLONNA DI SINISTRA */
+.content-plans-title {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.content-plans-title span {
+    margin-left: 10px;
+}
+
+.content-plans {
+    height: 50%;
+    padding: 10px 0px 10px 10px;
+    font-size: 20px;
+}
+
+.content-plans h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content-plans strong {
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.content-plans .fa-solid {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.content-plans button {
+    background-color: rgb(8, 123, 255);
+    border: none;
+    padding: 20px 80px 20px 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 90px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.content-plans a {
+    color: blue;
+}
+
+.time {
+    color: gray;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+/* COLONNA DI SINISTRA SOTTO */
+.content-check {
+    height: 45%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.content-check hr {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 30%;
+    color: lightgrey;
+}
+
+.content-check .fa-solid {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.mg-top-col {
+    margin-top: 20px;
+}
+
+.mg-left-text {
+    margin-left: 100px;
+}
+
+/* COLONNA CENTRALE */
+
+.mb-plans {
+    margin-bottom: 2000px;
+}
+
+.font-size {
+    font-size: 19px;
+}
+
 
 /* ALTRI DIV POSTI APPENA SOTTO I BUSINESS PLANS */
 .office {
