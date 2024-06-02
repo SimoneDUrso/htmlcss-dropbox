@@ -249,6 +249,11 @@ li {
     margin-top: 10px;
 }
 
+.separation {
+    display: flex;
+    flex-direction: row;
+}
+
 .content-plans button {
     background-color: rgb(8, 123, 255);
     border: none;
