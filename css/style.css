@@ -251,7 +251,10 @@ li {
 
 .separation {
     display: flex;
-    flex-direction: row;
+}
+
+.assistenza {
+    font-size: 19px;
 }
 
 .content-plans button {
