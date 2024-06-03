@@ -68,7 +68,6 @@ body {
 }
 
 .container-bg-lightblue {
-    min-width: 100vw;
     height: 1200px;
     background-color: rgba(120, 183, 255, 0.73);
     display: flex;
@@ -91,7 +90,6 @@ body {
 
 /* RIGA DEI CONTENT IMG E DELLE INFO */
 .row-first-block {
-    min-width: 1300px;
     width: 70%;
     display: flex;
     align-items: center;
